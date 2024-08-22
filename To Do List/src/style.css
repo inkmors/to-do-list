@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Jetbrains mono';
+}
+
+body{
+    background-color: rgb(43, 43, 43);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.align-btns,
+.div-align-tasks,
+li{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#input-text{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    padding-left: 0.7rem;
+    outline-color: rgba(48, 96, 253);
+}
+
+#btn-add{
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    background-color: rgba(48, 96, 253);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#btn-add:hover{
+    background-color: rgba(255, 255, 255);
+    color: rgba(48, 96, 253);
+    transition: 0.4s;
+    transform: scale(1.05);
+}
+
+#btn-close{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(209, 30, 30);
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+#btn-close:hover{
+    background-color: rgba(255, 255, 255);
+    color: rgba(209, 30, 30);
+    transition: 0.4s;
+    transform: scale(1.1);
+}
+
+.ul-task{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+li{
+    font-size: 25px;
+    color: white;
+}
+
+h1{
+    font-size: 50px;
+    color: white;
+}
